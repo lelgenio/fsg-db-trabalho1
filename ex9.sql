@@ -1,3 +1,4 @@
+-- O Departamento Financeiro foi transferido para Toronto, ajustar no banco de dados.
 USE DB_LEUGENIO;
 
 UPDATE DEPARTAMENTOS
@@ -19,10 +20,3 @@ WHERE
     and
     DEPARTAMENTOS.LOCAL_ID = LOCAIS.LOCAL_ID
     ;
-
--- +-------------------+---------+
--- | DEPARTAMENTO_NOME | CIDADE  |
--- +-------------------+---------+
--- | Financeiro        | Toronto |
--- +-------------------+---------+
--- 1 row in set (0.033 sec)
