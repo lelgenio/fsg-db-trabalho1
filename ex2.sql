@@ -1,7 +1,5 @@
 -- Selecionar todas os EMPREGADOS que respondem para o GERENTE FINANCEIRO. Listar primeiro e último nome, e nome do gerente, e cargo de ambos.
 
-SELECT * FROM DEPARTAMENTOS;
-
 SELECT
     PRIMEIRO_NOME, ULTIMO_NOME, DEPARTAMENTO_NOME, DEPARTAMENTOS.DEPARTAMENTO_ID
 FROM
