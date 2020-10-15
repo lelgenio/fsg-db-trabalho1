@@ -9,11 +9,14 @@ WHERE
     OR EMPREGADOS.SALARIO <= FUNCOES.MIN_SALARIO)
 --------------
 
-NOME	SOBRENOME	SALARIO	MATRICULA
-Nancy	Marquez	2000	108
-Daniel	Faviet	9000	109
-Karen	Colmenares	2500	119
-Alberto	Errazuriz	1000	147
-Marta	Sullivan	2500	182
-Rafael	Perkins	2500	191
-Shelle	Higgins	1000	205
++---------+------------+---------+-----------+
+| NOME    | SOBRENOME  | SALARIO | MATRICULA |
++---------+------------+---------+-----------+
+| Nancy   | Marquez    |    2000 |       108 |
+| Daniel  | Faviet     |    9000 |       109 |
+| Karen   | Colmenares |    2500 |       119 |
+| Alberto | Errazuriz  |    1000 |       147 |
+| Marta   | Sullivan   |    2500 |       182 |
+| Rafael  | Perkins    |    2500 |       191 |
+| Shelle  | Higgins    |    1000 |       205 |
++---------+------------+---------+-----------+

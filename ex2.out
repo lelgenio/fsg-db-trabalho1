@@ -10,9 +10,12 @@ WHERE
     AND EMPREGADO.GERENTE_ID = GERENTE.EMPREGADO_ID
 --------------
 
-PRIMEIRO_NOME	ULTIMO_NOME	DEPARTAMENTO_NOME	GERENTE
-Daniel	Faviet	Financeiro	Nancy
-John	Chen	Financeiro	Nancy
-Ismael	Sciarra	Financeiro	Nancy
-Jose	Urman	Financeiro	Nancy
-Luis	Popp	Financeiro	Nancy
++---------------+-------------+-------------------+---------+
+| PRIMEIRO_NOME | ULTIMO_NOME | DEPARTAMENTO_NOME | GERENTE |
++---------------+-------------+-------------------+---------+
+| Daniel        | Faviet      | Financeiro        | Nancy   |
+| John          | Chen        | Financeiro        | Nancy   |
+| Ismael        | Sciarra     | Financeiro        | Nancy   |
+| Jose          | Urman       | Financeiro        | Nancy   |
+| Luis          | Popp        | Financeiro        | Nancy   |
++---------------+-------------+-------------------+---------+

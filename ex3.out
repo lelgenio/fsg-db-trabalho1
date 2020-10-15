@@ -2,34 +2,37 @@
 SELECT * FROM DEPARTAMENTOS
 --------------
 
-DEPARTAMENTO_ID	DEPARTAMENTO_NOME	GERENTE_ID	LOCAL_ID
-10	Administração	200	1700
-20	Marketing	201	1800
-30	Compras	114	1700
-40	Recursos Humanos	203	2400
-50	Expedição	121	1500
-60	TI	103	1400
-70	Relações Publicas	204	2700
-80	Comercial	145	2500
-90	Executivo	100	1700
-100	Financeiro	108	1700
-110	Controladoria	205	1700
-120	Tesouraria	NULL	1700
-130	Fiscal	NULL	1700
-140	Credito	NULL	1700
-150	Serviços de Acionista	NULL	1700
-160	Beneficios	NULL	1700
-170	Manufatura	NULL	1700
-180	Construção	NULL	1700
-190	Contratação	NULL	1700
-200	Operação	NULL	1700
-210	Suport de TI	NULL	1700
-220	NOC	NULL	1700
-230	TI Helpdesk	NULL	1700
-240	Comercial/Governo	NULL	1700
-250	Comercial/Cliente Final	NULL	1700
-260	Recrutamento	NULL	1700
-270	Pagamento	NULL	1700
++-----------------+-------------------------+------------+----------+
+| DEPARTAMENTO_ID | DEPARTAMENTO_NOME       | GERENTE_ID | LOCAL_ID |
++-----------------+-------------------------+------------+----------+
+|              10 | Administração           |        200 |     1700 |
+|              20 | Marketing               |        201 |     1800 |
+|              30 | Compras                 |        114 |     1700 |
+|              40 | Recursos Humanos        |        203 |     2400 |
+|              50 | Expedição               |        121 |     1500 |
+|              60 | TI                      |        103 |     1400 |
+|              70 | Relações Publicas       |        204 |     2700 |
+|              80 | Comercial               |        145 |     2500 |
+|              90 | Executivo               |        100 |     1700 |
+|             100 | Financeiro              |        108 |     1700 |
+|             110 | Controladoria           |        205 |     1700 |
+|             120 | Tesouraria              |       NULL |     1700 |
+|             130 | Fiscal                  |       NULL |     1700 |
+|             140 | Credito                 |       NULL |     1700 |
+|             150 | Serviços de Acionista   |       NULL |     1700 |
+|             160 | Beneficios              |       NULL |     1700 |
+|             170 | Manufatura              |       NULL |     1700 |
+|             180 | Construção              |       NULL |     1700 |
+|             190 | Contratação             |       NULL |     1700 |
+|             200 | Operação                |       NULL |     1700 |
+|             210 | Suport de TI            |       NULL |     1700 |
+|             220 | NOC                     |       NULL |     1700 |
+|             230 | TI Helpdesk             |       NULL |     1700 |
+|             240 | Comercial/Governo       |       NULL |     1700 |
+|             250 | Comercial/Cliente Final |       NULL |     1700 |
+|             260 | Recrutamento            |       NULL |     1700 |
+|             270 | Pagamento               |       NULL |     1700 |
++-----------------+-------------------------+------------+----------+
 --------------
 UPDATE EMPREGADOS
 SET EMPREGADOS.DEPARTAMENTO_ID ='210'
@@ -45,30 +48,33 @@ WHERE DEPARTAMENTOS.DEPARTAMENTO_ID = '60'
 SELECT * FROM DEPARTAMENTOS
 --------------
 
-DEPARTAMENTO_ID	DEPARTAMENTO_NOME	GERENTE_ID	LOCAL_ID
-10	Administração	200	1700
-20	Marketing	201	1800
-30	Compras	114	1700
-40	Recursos Humanos	203	2400
-50	Expedição	121	1500
-70	Relações Publicas	204	2700
-80	Comercial	145	2500
-90	Executivo	100	1700
-100	Financeiro	108	1700
-110	Controladoria	205	1700
-120	Tesouraria	NULL	1700
-130	Fiscal	NULL	1700
-140	Credito	NULL	1700
-150	Serviços de Acionista	NULL	1700
-160	Beneficios	NULL	1700
-170	Manufatura	NULL	1700
-180	Construção	NULL	1700
-190	Contratação	NULL	1700
-200	Operação	NULL	1700
-210	Suport de TI	NULL	1700
-220	NOC	NULL	1700
-230	TI Helpdesk	NULL	1700
-240	Comercial/Governo	NULL	1700
-250	Comercial/Cliente Final	NULL	1700
-260	Recrutamento	NULL	1700
-270	Pagamento	NULL	1700
++-----------------+-------------------------+------------+----------+
+| DEPARTAMENTO_ID | DEPARTAMENTO_NOME       | GERENTE_ID | LOCAL_ID |
++-----------------+-------------------------+------------+----------+
+|              10 | Administração           |        200 |     1700 |
+|              20 | Marketing               |        201 |     1800 |
+|              30 | Compras                 |        114 |     1700 |
+|              40 | Recursos Humanos        |        203 |     2400 |
+|              50 | Expedição               |        121 |     1500 |
+|              70 | Relações Publicas       |        204 |     2700 |
+|              80 | Comercial               |        145 |     2500 |
+|              90 | Executivo               |        100 |     1700 |
+|             100 | Financeiro              |        108 |     1700 |
+|             110 | Controladoria           |        205 |     1700 |
+|             120 | Tesouraria              |       NULL |     1700 |
+|             130 | Fiscal                  |       NULL |     1700 |
+|             140 | Credito                 |       NULL |     1700 |
+|             150 | Serviços de Acionista   |       NULL |     1700 |
+|             160 | Beneficios              |       NULL |     1700 |
+|             170 | Manufatura              |       NULL |     1700 |
+|             180 | Construção              |       NULL |     1700 |
+|             190 | Contratação             |       NULL |     1700 |
+|             200 | Operação                |       NULL |     1700 |
+|             210 | Suport de TI            |       NULL |     1700 |
+|             220 | NOC                     |       NULL |     1700 |
+|             230 | TI Helpdesk             |       NULL |     1700 |
+|             240 | Comercial/Governo       |       NULL |     1700 |
+|             250 | Comercial/Cliente Final |       NULL |     1700 |
+|             260 | Recrutamento            |       NULL |     1700 |
+|             270 | Pagamento               |       NULL |     1700 |
++-----------------+-------------------------+------------+----------+

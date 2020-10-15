@@ -2,36 +2,39 @@
 select * FROM PAISES
 --------------
 
-PAIS_ID	PAIS_NOME	REGIAO_ID
-AR	Argentina	2
-AU	Australia	3
-BE	Belgica	1
-BR	Brasil	2
-CA	Canada	2
-CH	Suiça	1
-CN	China	3
-DE	Alemanha	1
-DK	Dinamarca	1
-EG	Egito	4
-FR	França	1
-IL	Israel	4
-IN	India	3
-IT	Italia	1
-JP	Japão	3
-KW	Kuwait	4
-ML	Malaysia	3
-MX	Mexico	2
-NG	Nigeria	4
-NL	Países Baixos	1
-RF	Rafael	1
-RU	Russia	3
-SG	Singapura	3
-TD	Chad	4
-UK	Reino Unido	1
-US	Estados Unidos	2
-VM	Vinícius Meng	1
-ZM	Zambia	4
-ZW	Zimbabwe	4
++---------+----------------+-----------+
+| PAIS_ID | PAIS_NOME      | REGIAO_ID |
++---------+----------------+-----------+
+| AR      | Argentina      |         2 |
+| AU      | Australia      |         3 |
+| BE      | Belgica        |         1 |
+| BR      | Brasil         |         2 |
+| CA      | Canada         |         2 |
+| CH      | Suiça          |         1 |
+| CN      | China          |         3 |
+| DE      | Alemanha       |         1 |
+| DK      | Dinamarca      |         1 |
+| EG      | Egito          |         4 |
+| FR      | França         |         1 |
+| IL      | Israel         |         4 |
+| IN      | India          |         3 |
+| IT      | Italia         |         1 |
+| JP      | Japão          |         3 |
+| KW      | Kuwait         |         4 |
+| ML      | Malaysia       |         3 |
+| MX      | Mexico         |         2 |
+| NG      | Nigeria        |         4 |
+| NL      | Países Baixos  |         1 |
+| RF      | Rafael         |         1 |
+| RU      | Russia         |         3 |
+| SG      | Singapura      |         3 |
+| TD      | Chad           |         4 |
+| UK      | Reino Unido    |         1 |
+| US      | Estados Unidos |         2 |
+| VM      | Vinícius Meng  |         1 |
+| ZM      | Zambia         |         4 |
+| ZW      | Zimbabwe       |         4 |
++---------+----------------+-----------+
 --------------
 INSERT IGNORE INTO PAISES values ('PR', 'Paraguai', '2')
 --------------
@@ -48,36 +51,39 @@ INSERT IGNORE INTO PAISES values ('VE', 'Venezuela', '2')
 select * FROM PAISES
 --------------
 
-PAIS_ID	PAIS_NOME	REGIAO_ID
-AR	Argentina	2
-AU	Australia	3
-BE	Belgica	1
-BR	Brasil	2
-CA	Canada	2
-CH	Suiça	1
-CL	Chile	2
-CN	China	3
-DE	Alemanha	1
-DK	Dinamarca	1
-EG	Egito	4
-FR	França	1
-IL	Israel	4
-IN	India	3
-IT	Italia	1
-JP	Japão	3
-KW	Kuwait	4
-ML	Malaysia	3
-MX	Mexico	2
-NG	Nigeria	4
-NL	Países Baixos	1
-PR	Paraguai	2
-RF	Rafael	1
-RU	Russia	3
-SG	Singapura	3
-TD	Chad	4
-UK	Reino Unido	1
-US	Estados Unidos	2
-VE	Venezuela	2
-VM	Vinícius Meng	1
-ZM	Zambia	4
-ZW	Zimbabwe	4
++---------+----------------+-----------+
+| PAIS_ID | PAIS_NOME      | REGIAO_ID |
++---------+----------------+-----------+
+| AR      | Argentina      |         2 |
+| AU      | Australia      |         3 |
+| BE      | Belgica        |         1 |
+| BR      | Brasil         |         2 |
+| CA      | Canada         |         2 |
+| CH      | Suiça          |         1 |
+| CL      | Chile          |         2 |
+| CN      | China          |         3 |
+| DE      | Alemanha       |         1 |
+| DK      | Dinamarca      |         1 |
+| EG      | Egito          |         4 |
+| FR      | França         |         1 |
+| IL      | Israel         |         4 |
+| IN      | India          |         3 |
+| IT      | Italia         |         1 |
+| JP      | Japão          |         3 |
+| KW      | Kuwait         |         4 |
+| ML      | Malaysia       |         3 |
+| MX      | Mexico         |         2 |
+| NG      | Nigeria        |         4 |
+| NL      | Países Baixos  |         1 |
+| PR      | Paraguai       |         2 |
+| RF      | Rafael         |         1 |
+| RU      | Russia         |         3 |
+| SG      | Singapura      |         3 |
+| TD      | Chad           |         4 |
+| UK      | Reino Unido    |         1 |
+| US      | Estados Unidos |         2 |
+| VE      | Venezuela      |         2 |
+| VM      | Vinícius Meng  |         1 |
+| ZM      | Zambia         |         4 |
+| ZW      | Zimbabwe       |         4 |
++---------+----------------+-----------+

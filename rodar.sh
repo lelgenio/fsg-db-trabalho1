@@ -3,7 +3,7 @@
 # Parar se der erro
 set -e
 
-CMD="mariadb -h34.95.201.6 -P3306 -ulelgenio -ppuredebatata DB_LEUGENIO"
+CMD="mariadb -t -h34.95.201.6 -P3306 -ulelgenio -ppuredebatata DB_LEUGENIO"
 
 rodaSQL(){
     echo ==== $i ====

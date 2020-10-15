@@ -8,10 +8,13 @@ WHERE
     empregado.GERENTE_ID = 146 AND empregado.GERENTE_ID = gerente.EMPREGADO_ID
 --------------
 
-PRIMEIRO_NOME	ULTIMO_NOME	NOME DO GERENTE	SOBRENOME
-Janete	King	Karen	Partners
-Patrick	Sully	Karen	Partners
-Allan	McEwen	Karen	Partners
-Lindsey	Smith	Karen	Partners
-Louise	Doran	Karen	Partners
-Sara	Sewall	Karen	Partners
++---------------+-------------+-----------------+-----------+
+| PRIMEIRO_NOME | ULTIMO_NOME | NOME DO GERENTE | SOBRENOME |
++---------------+-------------+-----------------+-----------+
+| Janete        | King        | Karen           | Partners  |
+| Patrick       | Sully       | Karen           | Partners  |
+| Allan         | McEwen      | Karen           | Partners  |
+| Lindsey       | Smith       | Karen           | Partners  |
+| Louise        | Doran       | Karen           | Partners  |
+| Sara          | Sewall      | Karen           | Partners  |
++---------------+-------------+-----------------+-----------+

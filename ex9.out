@@ -20,5 +20,8 @@ WHERE
     DEPARTAMENTOS.LOCAL_ID = LOCAIS.LOCAL_ID
 --------------
 
-DEPARTAMENTO_NOME	CIDADE
-Financeiro	Toronto
++-------------------+---------+
+| DEPARTAMENTO_NOME | CIDADE  |
++-------------------+---------+
+| Financeiro        | Toronto |
++-------------------+---------+
