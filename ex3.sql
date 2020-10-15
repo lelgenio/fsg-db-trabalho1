@@ -1,12 +1,5 @@
 -- O departamento de TI deixou de existir, precisamos deletar o mesmo, mas antes, temos que transferir todos os funcionários alocados nele para o departamento SUPORTE DE TI (210), efetuar os updates e deletes necessários.
 
-
-
-SELECT * FROM DEPARTAMENTOS;
-SELECT * FROM FUNCOES;
-SELECT * FROM FUNCAO_HISTORICO;
-SELECT * FROM EMPREGADOS;
-
 SELECT * FROM EMPREGADOS 
 WHERE EMPREGADOS.DEPARTAMENTO_ID = '210';
 
