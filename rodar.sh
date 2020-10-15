@@ -18,5 +18,3 @@ do
     rodaSQL $i
 done
 
-
-
