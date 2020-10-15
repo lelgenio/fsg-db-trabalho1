@@ -1,0 +1,84 @@
+--------------
+INSERT IGNORE INTO PAISES
+    (PAIS_ID, PAIS_NOME, REGIAO_ID)
+VALUES
+    ('CO', 'COLOMBIA', (
+            SELECT REGIAO_ID
+            FROM REGIOES
+            WHERE REGIAO_NAME LIKE '%america%'
+    ))
+--------------
+
+--------------
+INSERT IGNORE INTO LOCAIS
+    (LOCAL_ID,RUA,CEP,CIDADE,PAIS_ID)
+VALUES
+    (4000, "av. Calle 116", "93882", "Bogotá", (
+            SELECT REGIAO_ID
+            FROM REGIOES
+            WHERE REGIAO_NAME LIKE '%COLOMBIA%'
+    ))
+--------------
+
+--------------
+INSERT IGNORE INTO FUNCOES
+    (FUNCAO_NOME, MIN_SALARIO, MAX_SALARIO)
+VALUES
+    ("Gerente de Logistica", 10000, 12000)
+--------------
+
+--------------
+INSERT IGNORE INTO DEPARTAMENTOS
+    (DEPARTAMENTO_NOME, GERENTE_ID, LOCAL_ID)
+VALUES
+    ("Logistica", NULL ,(
+        SELECT LOCAL_ID
+        FROM LOCAIS
+        WHERE CIDADE LIKE '%Bogotá%'
+    )
+)
+--------------
+
+--------------
+INSERT IGNORE INTO EMPREGADOS
+(
+    PRIMEIRO_NOME,
+    ULTIMO_NOME,
+    EMAIL,
+    TELEFONE,
+    DATA_CONTRATACAO,
+    FUNCAO_ID,
+    SALARIO,
+    PCT_COMISSAO,
+    GERENTE_ID,
+    DEPARTAMENTO_ID,
+    SITUACAO
+)
+VALUES
+(
+    'Pablo',
+    'Escobar',
+    'PESCOBAR',
+    516699998888,
+    '15/08/2007',
+    (
+        SELECT FUNCAO_ID
+        FROM FUNCOES
+        WHERE FUNCAO_NOME LIKE '%GERENTE DE LOGISTICA%'
+    ),
+    10945,
+    NULL,
+    (
+        SELECT EMPREGADO_ID
+        FROM EMPREGADOS
+        WHERE FUNCAO_ID = 'AD_PRES'
+    ),
+    (
+        SELECT DEPARTAMENTO_ID
+        FROM DEPARTAMENTOS
+        WHERE DEPARTAMENTO_NOME like "Logistica"
+    ),
+    'A'
+)
+--------------
+
