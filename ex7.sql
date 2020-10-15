@@ -1,4 +1,3 @@
-USE DB_LEUGENIO;
  -- Acrescentar um EMPREGADO novo, ele é o Pablo Escobar, com e-mail PESCOBAR, telefone 516699998888, Data de contratação 15/08/2007, Função Gerente de Logistica (Criar função com salários entre 10000 e 12000), Salario atual dele 10945, sem comissão e seu gerente é o Presidente da empresa, trabalhando no departamento de Logistica (criar departamento), que está localizado na COLOMBIA, Na av. Calle 116, cep 93882, Bogotá, sem estado.
 
 -- PAIS

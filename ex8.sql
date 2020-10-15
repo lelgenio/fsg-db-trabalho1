@@ -1,4 +1,3 @@
-USE DB_LEUGENIO;
 
 -- O EMPREGADO Mauro Andre, passou a ser gerente do departamento 210       Suport de TI, ajustar nas tabelas de departamentos e empregados que trabalham neste departamento.
 

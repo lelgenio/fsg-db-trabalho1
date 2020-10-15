@@ -7,5 +7,5 @@ FROM
     EMPREGADOS as gerente
 WHERE
     empregado.GERENTE_ID = 146 AND empregado.GERENTE_ID = gerente.EMPREGADO_ID
-    
+
 ;

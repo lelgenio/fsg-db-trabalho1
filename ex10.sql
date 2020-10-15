@@ -1,6 +1,5 @@
 -- Adicionar a coluna SITUACAO na tabela EMPREGADOS, atualizando a mesma para “A” de ATIVO, para todos os funcionários, e após atualize para “D” de DESLIGADO os empregados 105, 107, 163 e 165, por fim, liste todos os funcionários “A” ATIVOS.
 
-USE DB_LEUGENIO;
 
 ALTER TABLE EMPREGADOS ADD COLUMN SITUACAO VARCHAR(1);
 

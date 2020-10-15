@@ -1,5 +1,4 @@
 -- O Departamento Financeiro foi transferido para Toronto, ajustar no banco de dados.
-USE DB_LEUGENIO;
 
 UPDATE DEPARTAMENTOS
 SET LOCAL_ID = (
